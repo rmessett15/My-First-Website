@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li { 
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px solid white;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid white;
+    color: white;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+}
+
+figcaption {
+
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid black;
+    background-color: white;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid black;
+}
+
+textarea {
+    vertical-align: top;
+    height: 100px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
