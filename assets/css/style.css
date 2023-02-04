@@ -7,7 +7,7 @@ body {
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    background-color: white;
+    background-color: #848b79;
     color: black;
 }
 
@@ -36,7 +36,7 @@ footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: black;
+    background-color: #5d8d91;
 }
 
 header {
@@ -62,7 +62,8 @@ img {
 }
 
 figcaption {
-
+    padding: 0px;
+    margin: 15px;
 }
 
 section {
@@ -100,7 +101,7 @@ textarea {
 button {
     height: 40px;
     width: 120px;
-    background-color: black;
+    background-color: #d6baa3;
     color: white;
 }
 
@@ -108,3 +109,7 @@ button {
     text-align: center;
 }
 
+ul {
+    margin: 7px;
+    padding: 0px;
+}
